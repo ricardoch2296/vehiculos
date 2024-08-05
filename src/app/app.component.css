@@ -1,0 +1,19 @@
+.tittle {
+  text-align: center;
+  /* align-content: center; */
+}
+
+.buttons {
+  display: flex;
+  /* align-content: center;
+  align-items: center; */
+  justify-content: center;
+  
+}
+.registerButton {
+  margin: 10px;
+}
+
+.filterButton {
+  margin: 10px;
+}

@@ -1,0 +1,26 @@
+.itemList{
+    align-content: center;
+    justify-content: left;
+    display: flex;
+    
+}
+
+.left{
+    justify-content: left;
+    text-align: left;
+
+}
+.text{
+    /* padding-right: 10%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: right;
+}
+
+.right{
+    text-align:right;
+    color: rgb(44, 12, 130);
+    margin-left: auto;
+    
+
+}

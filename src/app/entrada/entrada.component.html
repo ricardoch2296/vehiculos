@@ -1,0 +1,8 @@
+<h6 class = 'tituloModal'>Nuevo ingreso </h6>
+<mat-form-field>
+    <input matInput [(ngModel)]="data.placa" placeholder="Ingresa la placa">
+</mat-form-field>
+<div mat-dialog-actions class = 'btnModal'>
+    <button mat-button (click)="onNoClick()">Cancelar</button>
+    <button mat-button [mat-dialog-close]="data">Aceptar</button>
+</div>
